@@ -257,7 +257,13 @@ a {
 }
 
 img {
-  margin-top: 1em;
+    /* Rotate div */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+   width: 60%
+  
+}
 }
 
 a {
